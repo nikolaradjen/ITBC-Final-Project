@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-03T21:44:43 CEST" name="Default suite" finished-at="2020-04-03T21:45:17 CEST" duration-ms="33596">
+    <groups>
+    </groups>
+    <test started-at="2020-04-03T21:44:43 CEST" name="Default test" finished-at="2020-04-03T21:45:17 CEST" duration-ms="33596">
+      <class name="webpage.tests.RegExcelTest">
+        <test-method is-config="true" signature="createDriver()[pri:0, instance:webpage.tests.RegExcelTest@1d082e88]" started-at="2020-04-03T21:44:43 CEST" name="createDriver" finished-at="2020-04-03T21:44:47 CEST" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method signature="signInCheck()[pri:0, instance:webpage.tests.RegExcelTest@1d082e88]" started-at="2020-04-03T21:44:47 CEST" name="signInCheck" finished-at="2020-04-03T21:45:17 CEST" duration-ms="30039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInCheck -->
+      </class> <!-- webpage.tests.RegExcelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
