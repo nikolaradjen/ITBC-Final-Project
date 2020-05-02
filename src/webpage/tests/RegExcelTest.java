@@ -45,8 +45,8 @@ public class RegExcelTest {
 			Registration.enterMobile(driver, ExcelUtils.getCellData(i, 8));
 			Registration.clickRegister(driver);
 
-			// checking if registration was successful String current =
-			driver.getTitle();
+			// checking if registration was successful 
+			String current = driver.getTitle();
 			String expected = "My account - My Store";
 			sa.assertEquals(current, expected);
 
